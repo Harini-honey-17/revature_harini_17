@@ -1,0 +1,2 @@
+module PriorityQueue.java {
+}
