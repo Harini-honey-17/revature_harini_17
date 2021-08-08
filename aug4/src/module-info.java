@@ -1,0 +1,2 @@
+module aug4 {
+}
