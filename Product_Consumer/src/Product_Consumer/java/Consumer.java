@@ -1,5 +1,5 @@
 package Product_Consumer.java;
-
+import Producer_Consumer.Shop;
 
 public class Consumer<Shop> implements Runnable {
 
@@ -17,7 +17,7 @@ public class Consumer<Shop> implements Runnable {
 	public void run() {
 		try {
 			for (int i = 0; i <= 5; i++) {
-				((Object)obj).get();
+				obj.get();
 				Thread.sleep(1000);
 			}
 
