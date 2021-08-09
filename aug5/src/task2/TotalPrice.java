@@ -20,7 +20,7 @@ bill.add(new ItemList("Dosa",6,2));
 bill.add(new ItemList("Jalebi",10,10));
 bill.add(new ItemList("Rosgulla",10,18));
 Collections.sort(bill);
-System.out.println("\n\n *********Welcome To ShivamDhaba********\n");
+System.out.println("\n\n *********Welcome To honeyDhaba********\n");
 System.out.println("  ItemName  "+"Price    "+"Qty  "+"LineTotal  ");
 for (ItemList transaction : bill) {
 transaction.printStatement();
@@ -32,7 +32,7 @@ System.out.println("                      Total= "+s);
 System.out.println("                           .........");
 System.out.println("                  BillTotal= "+s*1.05+"\n "
 	+ "          (Inclusive of 5% tax)");
-System.out.println("\n\n **************Keep Coming*****************");
+System.out.println("\n\n **************Keep Coming  Thankyou*****************");
 
 }
 }
